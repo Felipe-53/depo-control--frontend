@@ -1,0 +1,24 @@
+/* GENERAL CSS APPLICABLE WIDELY */
+
+:root {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* `overflow: hidden` is necessary because
+  the `Slide` component translates the screens
+  to the bottom or the top of the page until
+  it's their time to show up */
+  overflow: hidden;
+}
